@@ -9,5 +9,5 @@ services:
       - "8500:80"
     restart: unless-stopped
     environment:
-      - JWT_ENABLED=true
+      - EXAMPLE_ENABLED=true
       - JWT_SECRET=my_secret
