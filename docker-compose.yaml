@@ -11,3 +11,4 @@ services:
     environment:
       - EXAMPLE_ENABLED=true
       - JWT_SECRET=my_secret
+      - THEME=euro-office     
